@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    position: fixed;
+    top: 20px;
+    right: 25px;
+    color: white;
+    padding: 1%;
+    background-color: black ;
+    opacity: 0.5;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.4s;
+    
+}
+ .menu:hover{
+     opacity: 0.7;
+
+ }
+ .arrow{
+    position: fixed;
+    bottom:20px;
+    right: 25px;
+    color: white;
+    padding: 1%;
+    background-color: black ;
+    opacity: 0.5;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.4s;
+    
+}
+ .arrow:hover{
+     opacity: 0.7;
+
+ }
+.first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+    padding: 20% 0%;
+    background-repeat: no-repeat;
+     
+}
+.first .box{text-align: center;}
+.first .box h1{
+    color: #212529;
+    font-size: 88px;
+    margin-bottom: 4px;
+
+}
+.first .box h3{
+    color: #212529;
+    font-size: 28px;
+    margin-bottom: 50px;
+
+}
+.first .box a{
+    background-color: #1d809f;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .4s;
+}
+.first .box a:hover{
+    background-color: #155d74!important;
+}
+.second{
+    padding: 7% 0%;
+}
+.second .box{
+    text-align: center;
+}
+.second .box h1{
+    color: #212529;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.second .box p{
+    color: #212529;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.second .box p a{
+    text-decoration: none;
+    color: #1d809f;
+    font-size: 20px;
+    
+    
+}
+.second .box .btn{
+    background-color: #1d809f;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .4s;
+}
+.second .box .btn:hover{
+    background-color: #155d74!important;
+}
+.third{
+    background-color: #1d809f;
+    height: 25rem;
+    padding: 4% 0%;
+    overflow: hidden;
+}
+.third .writing{
+    text-align: center;
+
+}
+.third .writing h3{
+    
+    color: #ecb807;
+    font-size:16px;
+    margin-bottom: 10px;
+}
+.third .writing h2{
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 5%;
+}
+.third .third-box{
+    margin-left: 18%;
+}
+.third .third-box .box{
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+
+}
+.third .third-box .box i{
+    color: #1d809f;
+    font-size: 36px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 100%;
+}
+.third .third-box .box .icon{
+    padding: 20px 30px;
+ 
+
+}
+.third .third-box .box h3{
+    color: #fff;
+    font-size: 24px;
+    margin: 20px 0%;
+
+}
+.third .third-box .box p{
+    color: #fff;
+    font-size: 16px;
+}
+.fourth{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+    background-repeat: no-repeat;
+    padding: 10% 0%;
+}
+.fourth .box{
+    text-align: center;
+}
+.fourth .box h2
+{
+    color: #212529;
+    font-size: 56px;
+    margin-bottom: 3%;
+}
+.fourth .box a{
+    background-color: #1d809f;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .4s;
+}
+.fourth .box a:hover{
+    background-color: #155d74!important;
+}
+#fifth {
+    overflow: hidden;
+    margin-bottom: 5%;
+  }
+  
+  #fifth .text {
+    margin: 3% 0%;
+    text-align: center;
+  }
+  
+  #fifth .text h4 {
+    color: #ecb807;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #fifth .text h3 {
+    color: #212529;
+    font-size: 48px;
+    margin: 0px;
+  }
+  
+  #fifth .all {
+    padding: 1% 12%;
+  }
+  
+  #fifth .all .box {
+    float: left;
+    width: 50%;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    position: relative;
+  }
+  
+  #fifth .all .box:hover {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  
+  #fifth .all .box:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  #fifth .all .box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+    background-color: #1d809f;
+  }
+  
+  #fifth .all .box .box-text {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    text-align: left;
+  }
+  
+  #fifth .all .box .box-text h2 {
+    color: #fff;
+    font-size: 32px;
+  }
+  
+  #fifth .all .box .box-text p {
+    color: #fff;
+    font-size: 19px;
+  }
+  
+  #fifth .all .box img {
+    vertical-align: bottom;
+    width: 100%;
+  }
+
+.sixth{
+    background-color: #1d809f;
+    /* height: 25em; */
+    padding: 5% 0%;
+    
+}
+.sixth .box{
+    text-align: center;
+}
+.sixth .box h2{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 3%;
+}
+.sixth .box .btn1{
+    background-color: #fff;
+    text-decoration: none;
+    color: #212629;
+    font-size: 16px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .4s;
+}
+.sixth .box .btn2{
+    background-color: #212529;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .4s;
+}
+.eighth{ padding: 3% 0%;}
+.eighth .box{
+    text-align: center;
+}
+.eighth .box .icon{
+    padding: 10px 15px;
+}
+.eighth .box i{
+    color: #fff;
+    background-color: #1d809f;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 0px 10px;
+    margin-bottom: 2%;
+    
+}
+.eighth p{
+  text-align: center;
+  color: #6c757d;
+  font-size: 12px;
+}
+
+
